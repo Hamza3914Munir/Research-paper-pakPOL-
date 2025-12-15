@@ -1,113 +1,159 @@
-<div align="center">
+# 🚓 pakPOL: Manages Crime, So You Don’t Have To!
 
-# 👋 Hi, I'm **Hamza Munir**
-### 🚀 Flutter Developer | Cross-Platform Engineer | AI/ML Integrator
+![Status](https://img.shields.io/badge/Status-Research%20Project-blue)
+![AI](https://img.shields.io/badge/AI-Face%20%26%20Fingerprint%20Recognition-purple)
+![Tech](https://img.shields.io/badge/Tech-Node.js%20|%20Python%20|%20MongoDB-green)
 
-**Lahore, Pakistan — Open to Remote Work Worldwide**  
-**Email:** hamzamuni3914@gmail.com • **Phone:** +92 3051882278
-
-</div>
+> **pakPOL** is a cloud-based, AI-powered **Criminal Record & Crime Management System** designed to modernize law-enforcement operations by replacing manual, paper-based workflows with secure, scalable, and intelligent digital solutions.
 
 ---
 
-## 🧩 About Me
-Flutter Developer with 2+ years of experience delivering production-ready mobile apps using clean architecture, scalable state management, testing, and real-time integrations involving AI, IoT, and e-commerce. Published multiple apps on Play Store and App Store and passionate about UI/UX, performance optimization, and maintainable code. :contentReference[oaicite:2]{index=2}
+## 📌 Research Overview
+
+**Title:** pakPOL: Manages Crime, So You Don’t Have To!
+**Domain:** Artificial Intelligence, Computer Vision, Criminal Record Management
+**Institution:** University of Management and Technology (UMT), Lahore, Pakistan
+
+pakPOL leverages **Deep Learning**, **Computer Vision**, and **Cloud Technologies** to enable **real-time criminal identification**, **secure record management**, and **advanced search capabilities** for law enforcement agencies.
 
 ---
 
-## 🔗 Contact & Profiles
-- ✉️ hamzamuni3914@gmail.com  
-- 📞 +92 3051882278  
-- 🐙 GitHub: https://github.com/Hamza3914Munir  
-- 🔗 LinkedIn: https://www.linkedin.com/in/hamza-munir-4912ba273
+## 🎯 Motivation
+
+Many police departments still rely on **manual file systems**, leading to:
+
+* Delays in investigations
+* Inefficient data retrieval
+* Poor scalability and security
+
+pakPOL was developed to **digitize and centralize crime data**, enabling faster decision-making and accurate criminal identification using modern AI techniques.
 
 ---
 
-## 🛠️ Technology Stack
+## 🧠 Key Features
 
-**Mobile**
-- Flutter (BLoC, GetX, Provider, Riverpod), Dart
+### 🔍 AI-Based Criminal Identification
 
-**Backend & Services**
-- Firebase, Django (AI/ML services), Supabase
+* **Face Recognition** using **DeepFace (CNN-based model)**
+* **Fingerprint Recognition** using minutiae-based matching
+* ~**96% face verification accuracy** with <0.1% false-match rate
 
-**APIs & Comm**
-- REST APIs, GraphQL, WebSockets
+### 🔐 Dual Authentication System
 
-**Storage**
-- Hive, SQLite, SharedPreferences
+* Biometric verification (Face / Fingerprint)
+* Traditional secure login system
 
-**Payments**
-- Stripe, PayPal, Braintree, Wise, Payoneer, Crypto
+### ⚡ Advanced Search Capabilities
 
-**Ads**
-- Google AdMob, Facebook Audience Network
+* Image-based criminal search
+* Fingerprint-based identification
+* Fast database querying with optimized indexing
 
-**DevOps & Tools**
-- Git, GitHub Actions, GitLab CI, Codemagic, Fastlane, Docker
+### 🖥️ User-Friendly Interface
 
-**Languages & Concepts**
-- Dart, Kotlin, C++, Java, Python, YAML, JavaScript  
-- Clean Architecture, MVVM, BLoC, Navigation 2.0, Localization, Responsive UI. :contentReference[oaicite:3]{index=3}
+* Simple and intuitive UI
+* Easy record insertion, updating, and searching
+* Multi-agency accessibility
 
----
+### ☁️ Cloud-Based Architecture
 
-## 💼 Work Experience (highlights)
-- **Associate Flutter Developer — IIFA Tech** (Nov 2024 – Apr 2025)  
-  Built scalable apps using BLoC, integrated React Native hybrid modules, improved CI/CD and QA workflows, participated in code reviews and mentoring. :contentReference[oaicite:4]{index=4}
-
-- **Flutter Developer — Sivers.Co** (Dec 2023 – Oct 2024)  
-  Ported legacy system to Flutter Web, used isolates for background processing, and optimized cross-screen performance. :contentReference[oaicite:5]{index=5}
-
-- **Remote Flutter Intern — Leader ZAM Studios** (Sep 2023 – Nov 2023)  
-  Led intern team building Firebase-integrated apps and performed code reviews. :contentReference[oaicite:6]{index=6}
+* Real-time processing
+* Scalable and secure deployment
+* Centralized criminal database
 
 ---
 
-## 📱 Selected Projects
+## 🏗️ System Architecture
 
-### **PGMart Seller — Seller App (Live)**
-Flutter, BLoC, Firebase — Seller app with product/order/store management, real-time inventory and analytics. :contentReference[oaicite:7]{index=7}
+pakPOL follows a **hybrid cloud-based architecture**:
 
-### **PGMart — Shopping App (Live)**
-Flutter, BLoC, Firebase — Customer shopping app with cart, payments, search/filters and order tracking. :contentReference[oaicite:8]{index=8}
+* **Backend:** Node.js, Express.js
+* **AI Services:** Python (Flask)
+* **Database:** MongoDB
+* **AI Models:** DeepFace (Face Recognition)
+* **Deployment:** Cloud-supported infrastructure
 
-### **Stora — AI Image → Story (Live)**
-Flutter, Provider, Firebase — Converts user images into AI-generated stories and stores history. :contentReference[oaicite:9]{index=9}
-
-### **Ventia — IoT AC Controller**
-Flutter, GetX, IoT SDK — Remote AC control with per-family member data display. :contentReference[oaicite:10]{index=10}
-
-### **Timely Prayers — User & Admin**
-Flutter, Firebase, Geolocation — Prayer times, AI Qibla detection, real-time updates. :contentReference[oaicite:11]{index=11}
-
-### **Blood Bridge — AI Blood Donation Platform**
-Flutter, Firebase, Dialogflow — Matches donors and recipients with AI chat assistance. :contentReference[oaicite:12]{index=12}
+This architecture ensures **scalability**, **security**, and **real-time performance**.
 
 ---
 
-## 📚 Research & Achievements
+## 🧬 DeepFace Model Highlights
 
-- **FYP Selected for Punjab HEC Expo 2025 — pakPOL (Crime Management System)**  
-  Selected among 100+ FYPs to represent UMT. Tech: Flutter, Firebase, Django, MySQL, DeepFace. Facial recognition ~96%, fingerprint verification, cloud sync. :contentReference[oaicite:13]{index=13}
+* 9-layer Convolutional Neural Network (CNN)
+* Trained on **~4 million face images**
+* Achieved **97.3% accuracy on LFW dataset** (human-level performance)
+* Used for robust face embedding extraction and verification
 
-- **Research Publication — "pakPOL: Manages Crime, So You Don’t Have To!"**  
-  Co-author on the conference paper.  
-  📄 **Download PDF:** [pakPOL - Conference Paper](./pakPOL%20-%20Conference%20Paper.pdf). :contentReference[oaicite:14]{index=14}
-
-- **YouTube:** @aiwithflutter — created playlists for Dart, Flutter, and AI with Flutter. :contentReference[oaicite:15]{index=15}
+pakPOL fine-tunes DeepFace embeddings to ensure tight identity clustering and reliable recognition in real-world conditions.
 
 ---
 
-## 🚀 How to run / preview my apps
-*(Add each project's repo link and short run instructions here — e.g., `flutter pub get`, `flutter run -d chrome` for web, or build & signing notes for stores.)*
+## 📊 Performance
+
+| Metric                    | Result                 |
+| ------------------------- | ---------------------- |
+| Face Recognition Accuracy | ~96%                   |
+| False Match Rate          | < 0.1%                 |
+| Processing Time           | ~0.2 seconds per frame |
+| Deployment                | Cloud-based, real-time |
 
 ---
 
-## 🎯 What I'm looking for
-Open to remote roles / collaborations in Flutter mobile development, AI/ML mobile integrations, cross-platform systems, and projects that combine front-end UX with backend AI services. :contentReference[oaicite:16]{index=16}
+## 🆚 Comparison with Existing Systems
+
+| System                   | Biometric Support    | Digital Level |
+| ------------------------ | -------------------- | ------------- |
+| Punjab Police (Pakistan) | ❌ No                 | Low           |
+| NYPD                     | ⚠️ Limited           | Medium        |
+| Europol                  | ❌ No                 | Medium        |
+| **pakPOL**               | ✅ Face + Fingerprint | **High**      |
+
+pakPOL outperforms traditional systems by offering **fully automated biometric verification** and **cloud-based scalability**.
 
 ---
 
-## ⭐ Star this repo if you like my work — feedback & collaboration welcome!
+## 🎯 Objectives
 
+* Digitize criminal record management
+* Improve investigation speed and accuracy
+* Enable secure inter-agency data sharing
+* Establish a scalable, future-ready police management system
+
+---
+
+## 👥 Authors
+
+* **Talha Khalid** – Computer Science, UMT
+* **Hamza Munir** – Computer Science, UMT
+* **Saad Hameed** – Computer Science, UMT
+* **Waseem Iqbal** – Computer Science, UMT
+* **Faza E Badar** – Software Engineering, UMT
+* **Muhammad Rumaan** – Computer Science, UMT
+
+---
+
+## 📄 Research Paper
+
+📌 This repository is based on an academic research paper submitted as part of a university research project.
+
+> *If you use this work for academic or research purposes, please provide proper citation.*
+
+---
+
+## ⚠️ Disclaimer
+
+This project is developed **strictly for academic and research purposes**. It is **not an official system** of any law enforcement agency.
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+* ⭐ Star this repository
+* 📚 Cite our research
+* 🤝 Contribute or suggest improvements
+
+---
+
+> **pakPOL – Because modern problems need intelligent solutions.** 🚀
